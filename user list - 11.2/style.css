@@ -1,0 +1,9 @@
+h4,h5,p{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    flex-basis: 300px;
+}

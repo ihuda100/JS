@@ -1,0 +1,14 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    max-width: 1400px;
+}
+.sizeWin{
+    height: 120px;
+    
+}

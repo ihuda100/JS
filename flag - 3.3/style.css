@@ -1,0 +1,24 @@
+h2,h4{
+    margin: 0;
+}
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+}
+.t-center{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 20px;
+}
+li{
+    flex-basis: 300px;
+    padding: 7px;
+    border: solid gray 1px;
+    border-radius: 10px;
+}

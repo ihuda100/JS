@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="app.js"></script>
+    <title>reqres API</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="formCard rounded rounded-2 shadow">
+        <h1 class="text-center">User Management</h1>
+        
+        <form id="form">
+          <h3>Fetch User</h3>
+          <input id="idInput" type="number" min="1" max="12"/>
+          <button id="fetchBtn" class="btn btn-info w-100">Fetch User</button>
+          <p id="messageP"></p>
+          <h3>User Details</h3>
+          <label for="">First Name:</label>
+          <input id="FirstNameInput" type="text" />
+          <label for="">Last Name:</label>
+          <input id="LastNemeInput" type="text" />
+          <label for="">Email:</label>
+          <input id="emailInput" type="text" />
+          <label for="">Avatar URL:</label>
+          <input id="avatarInput" type="text" />
+          <button class="btn btn-info w-100 mb-2">Update User</button>
+          <button class="btn btn-info w-100 mb-2">Delete User</button>
+          <button id="createBtn" class="btn btn-info w-100 mb-2">Create User</button>
+          <button class="btn btn-danger w-100">Clear</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

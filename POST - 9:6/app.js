@@ -20,8 +20,6 @@ const postRequest = async () => {
         console.error(error);
     }
 }
-
-
 const putRequest = async (id) => {
     try {
         const res = await fetch (`${BASE_URL}/${id}`,{
@@ -52,4 +50,4 @@ const deleteRequest = async (id) => {
         console.error(error);
     }
 }
-deleteRequest(40)
+postRequest();
